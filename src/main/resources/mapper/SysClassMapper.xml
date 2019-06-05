@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.hospital.mapper.SysClassMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xiao.hospital.entity.SysClass">
+        <id column="cl_id" property="clId" />
+        <result column="cl_title" property="clTitle" />
+        <result column="cl_path" property="clPath" />
+        <result column="cl_date" property="clDate" />
+        <result column="he_id" property="heId" />
+    </resultMap>
+
+</mapper>

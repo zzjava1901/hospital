@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.hospital.mapper.SysActiveMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xiao.hospital.entity.SysActive">
+        <id column="aid" property="aid" />
+        <result column="atitle" property="atitle" />
+        <result column="apath" property="apath" />
+        <result column="adate" property="adate" />
+    </resultMap>
+
+</mapper>

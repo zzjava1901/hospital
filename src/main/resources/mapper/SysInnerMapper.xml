@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.hospital.mapper.SysInnerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xiao.hospital.entity.SysInner">
+        <id column="inner_id" property="innerId" />
+        <result column="inener_info" property="inenerInfo" />
+        <result column="iid" property="iid" />
+        <result column="doctor_id" property="doctorId" />
+    </resultMap>
+
+</mapper>

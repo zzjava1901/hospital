@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.hospital.mapper.SysNinfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xiao.hospital.entity.SysNinfo">
+        <id column="ni_id" property="niId" />
+        <result column="ni_title" property="niTitle" />
+        <result column="ni_text" property="niText" />
+        <result column="ni_date" property="niDate" />
+    </resultMap>
+
+</mapper>
