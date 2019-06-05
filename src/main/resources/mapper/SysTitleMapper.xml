@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xiao.hospital.mapper.SysTitleMapper">
+<mapper namespace="com.xiao.hospital.dao.SysTitleMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.xiao.hospital.entity.SysTitle">
@@ -10,5 +10,7 @@
         <result column="title_url" property="titleUrl" />
         <result column="title_flag" property="titleFlag" />
     </resultMap>
+
+
 
 </mapper>

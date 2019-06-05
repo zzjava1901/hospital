@@ -15,7 +15,7 @@ public class R {
     public static R setOK(){
        R r = new R();
 
-        r.setCode(1);
+        r.setcode(1);
         r.setMsg("OK");
         r.setData(null);
         return r;

@@ -4,6 +4,7 @@ import com.xiao.hospital.entity.SysTitle;
 import com.xiao.hospital.dao.SysTitleMapper;
 import com.xiao.hospital.service.SysTitleService;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,5 +17,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class SysTitleServiceImpl extends ServiceImpl<SysTitleMapper, SysTitle> implements SysTitleService {
+
+
+
+
 
 }

@@ -18,15 +18,15 @@ import springfox.documentation.spring.web.plugins.Docket;
 public class SwaggerConfig {
 
     public ApiInfo createA(){
-        ApiInfo info=new ApiInfoBuilder().title("新闻app数据接口").
+        ApiInfo info=new ApiInfoBuilder().title("医院数据接口").
                 contact( new Contact("Java1901","http://1000phone.com","xingfei_work@163.com")).
-                description("实现一个新闻项目的数据接口信息").build();
+                description("实现一个医院项目的数据接口信息").build();
         return info;
     }
     @Bean//创建对象  修饰方法 方法的返回值必须是引用类型  对象存储在IOC容器
     public Docket createDocket(){
        Docket docket=new Docket(DocumentationType.SWAGGER_2).apiInfo(createA()).select().
-               apis(RequestHandlerSelectors.basePackage("com.qfedu.boot_ssm1901.controller")).build();
+               apis(RequestHandlerSelectors.basePackage("com.xiao.hospital.controller")).build();
        return docket;
 
     }
